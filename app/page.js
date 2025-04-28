@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Skills from './components/Skills';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import Footer from './components/Footer';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about'); // default About section
@@ -62,9 +63,9 @@ export default function Home() {
         </div>
 
         {/* Center Content */} 
-        <div className="w-[100%] lg:w-[67%] px-1 py-3">
+        <div className="w-[100%] lg:w-[66%] px-1 py-2">
           {activeSection === 'about' && (
-            <section className="py-3">
+            <section className="py-3 p-4 lg:p-8 rounded-3xl bg-amber-50">
               <h2 className="text-4xl font-bold mb-6">About Me</h2>
               <p className="text-gray-700 leading-relaxed">
                 Passionate Web Developer with hands-on experience at DigitalWolf Kolkata since August 2024.
@@ -89,6 +90,7 @@ export default function Home() {
                       1024: { perPage: 2 },
                     },
                   }}
+                  className='mb-4'
                 >
                   {skills.map((skill, index) => (
                     <SplideSlide key={index}>
@@ -106,7 +108,9 @@ export default function Home() {
                 </Splide>
               </div>
               
+              <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
               <Skills />
+              </div>
             </section>
           )}
 
@@ -118,8 +122,7 @@ export default function Home() {
         {/* Right Sidebar */}
         <RightSidebar setActiveSection={setActiveSection} />
       </div>
-      <Projects />
-      <Skills />
+      <Footer />
     </>
   );
 }
