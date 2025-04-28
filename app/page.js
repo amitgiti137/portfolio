@@ -53,16 +53,16 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="flex">
+      <div className="flex flex-wrap">
 
         {/* Left Profile */}
 
-        <div className="w-[25%]">
+        <div className="w-[100%] lg:w-[25%] p-2">
           <Hero />
         </div>
 
-        {/* Center Content */}
-        <div className="w-[70%] p-8">
+        {/* Center Content */} 
+        <div className="w-[100%] lg:w-[68%] px-6 py-3">
           {activeSection === 'about' && (
             <section className="py-3">
               <h2 className="text-4xl font-bold mb-6">About Me</h2>

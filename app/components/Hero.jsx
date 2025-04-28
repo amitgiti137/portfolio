@@ -6,7 +6,7 @@ import { FaBriefcase } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section className="w-[100%] mt-2 ms-2 rounded-4xl flex flex-col justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-6 relative">
+    <section className="w-[100%] container mx-auto rounded-4xl flex flex-col justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-6 relative">
 
       {/* Glow Backgrounds */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-pink-400 opacity-30 rounded-full blur-3xl animate-pulse"></div>
