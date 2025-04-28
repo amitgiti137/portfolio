@@ -6,7 +6,7 @@ export default function RightSidebar({ setActiveSection }) {
   return (
     <>
     {/* Desktop Sidebar (Vertical, Right side) */}
-    <div className="hidden lg:flex flex-col gap-8 fixed top-1/6 right-6 bg-white/30 backdrop-blur-md p-4 rounded-lg shadow-lg z-50">
+    <div className="hidden lg:flex flex-col gap-8 fixed top-1/6 right-6 bg-white/90 backdrop-blur-md p-4 rounded-lg shadow-lg z-50">
       {/* Sidebar Buttons */}
       <button onClick={() => setActiveSection('about')} className="flex flex-col items-center hover:text-blue-600 transition-all">
         <FaUser size={24} />

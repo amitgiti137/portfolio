@@ -53,9 +53,9 @@ export default function Home() {
   ];
 
   return (
-    <>
+    <div className="h-full bg-gradient-to-r from-gray-800 via-gray-900 to-black animate-bg-pulse">
       <Header setActiveSection={setActiveSection} />
-      <div className="flex flex-wrap mt-12 lg:mt-16">
+      <div className="flex flex-wrap mt-12 lg:mt-14">
 
         {/* Left Profile */}
 
@@ -127,6 +127,6 @@ export default function Home() {
         <RightSidebar setActiveSection={setActiveSection} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
