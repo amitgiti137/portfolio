@@ -1,5 +1,6 @@
 'use client';
 
+import { FaGraduationCap, FaBriefcase, FaClipboardList, FaLanguage } from 'react-icons/fa';
 import Projects from "./Projects";
 import Skills from "./Skills";
 
@@ -11,7 +12,7 @@ export default function Resume() {
                     <h1 className="text-4xl mb-4">Resume</h1>
                 </div>
                 <div className="mb-4">
-                    <h2 className="text-2xl mb-3">Education</h2>
+                    <h2 className="text-2xl mb-3 flex items-cente"><FaGraduationCap className="mr-2" />Education</h2>
                     <div className="flex flex-wrap space-y-2 space-x-4">
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
                             <h3 className="text-lg">Bachelor of Engineering</h3>
@@ -23,7 +24,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg">Intermediate</h3>
+                            <h3 className="text-lg">Higher Secondary School</h3>
                             <p className="text-sm mb-1">K N Memo Academy Asarganj Munger</p>
                             <div className="flex justify-between text-sm">
                                 <p>July 2010 - Mar 2012</p>
@@ -31,7 +32,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg">Matriculation</h3>
+                            <h3 className="text-lg">Secondary School</h3>
                             <p className="text-sm mb-1">Kendriya vidyalaya Jamalpur Munger</p>
                             <div className="flex justify-between text-sm">
                                 <p>April 2009 - Mar 2010</p>
@@ -41,7 +42,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-2xl mb-3">Experience</h2>
+                    <h2 className="text-2xl mb-3 flex items-cente"><FaBriefcase className="mr-2" />Experience</h2>
                     <div className="bg-white rounded-xl w-[100%] p-6">
                         <h3 className="text-lg">DIGITAL WOLF</h3>
                         <p className="text-sm mb-1">Kolkata</p>
@@ -60,7 +61,7 @@ export default function Resume() {
                     <Projects />
                 </div>
                 <div>
-                    <h2 className="text-2xl mb-3">Languages</h2>
+                    <h2 className="text-2xl mb-3 flex items-cente"><FaLanguage className="mr-2" />Languages</h2>
                     <div className="bg-white rounded-xl w-[100%] p-6">
                         <p className="text-sm mb-1">English (Working Proficient)</p>
                         <p className="text-sm mb-1">Hindi (Fluent)</p>

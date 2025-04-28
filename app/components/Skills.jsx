@@ -1,6 +1,6 @@
 'use client';
 
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGithub, FaLaptopCode } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGithub, FaTools } from 'react-icons/fa';
 import { SiNextdotjs, SiTailwindcss, SiPostman, SiVercel, SiMongodb, SiVisualstudio } from 'react-icons/si';
 import { Splide, SplideSlide } from '@splidejs/react-splide';  // Import Splide and SplideSlide
 import '@splidejs/react-splide/css'; // Make sure to import the CSS for the slider
@@ -24,7 +24,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-8 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl font-bold mb-6">Skills</h2>
+        <h2 className="text-2xl font-bold mb-6 flex items-center"> <FaTools className="mr-2" />Skills</h2>
 
         {/* Splide Slider */}
         <Splide

@@ -3,6 +3,7 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaProjectDiagram } from 'react-icons/fa';
 
 export default function Projects() {
   const projects = [
@@ -39,7 +40,7 @@ export default function Projects() {
   return (
     <section id="projects" className="">
       <div className="">
-        <h2 className="text-2xl font-bold ">Projects</h2>
+        <h2 className="text-2xl font-bold flex items-center"><FaProjectDiagram className="mr-2" /> Projects</h2>
 
         <Splide 
           options={{
