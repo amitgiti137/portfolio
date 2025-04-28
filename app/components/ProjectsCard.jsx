@@ -46,7 +46,7 @@ export default function ProjectsFlex() {
               className="flex flex-col justify-between bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all basis-full md:basis-[48%]"
             >
               <div>
-                <h3 className="text-2xl font-bold text-indigo-600 mb-4">{project.title}</h3>
+                <h3 className="text-xl font-bold text-indigo-600 mb-4">{project.title}</h3>
                 <p className="text-gray-700 mb-4">{project.description}</p>
                 <p className="text-sm text-gray-500 mb-2"><strong>Tech Stack:</strong> {project.techStack}</p>
                 <p className="text-xs text-gray-400">{project.status}</p>
