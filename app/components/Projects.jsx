@@ -25,27 +25,27 @@ export default function Projects() {
       description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
       techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
       status: "Internal Project",
-      link: null,
+      link: "https://auto-front-git-master-amits-projects-069343dc.vercel.app/",
     },
     {
-      title: "E-commerce Platform (General)",
-      description: "Shopping web app with dynamic products, filters, and cart functionalities.",
-      techStack: "Next.js, TailwindCSS",
-      status: "Completed",
-      link: null,
-    },
+        title: "Kam Pay Karo",
+        description: "Shopping web app with affiliate marketing",
+        techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
+        status: "Live on Devlopment Mode",
+        link: "https://paykaro-frontend-git-main-amits-projects-069343dc.vercel.app/",
+      },
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
+    <section id="projects" className="">
+      <div className="">
+        <h2 className="text-4xl font-bold ">Projects</h2>
 
         <Splide 
           options={{
             type: "loop",
             perPage: 2,
-            gap: '2rem',
+            gap: '1rem',
             autoplay: true,
             pauseOnHover: true,
             arrows: false,
@@ -58,7 +58,7 @@ export default function Projects() {
         >
           {projects.map((project, index) => (
             <SplideSlide key={index}>
-              <div className="bg-white p-8 rounded-2xl shadow-xl flex flex-col justify-between h-full hover:shadow-2xl transition-all">
+              <div className="bg-white p-4 rounded-2xl flex flex-col justify-between h-full hover:shadow-2xl transition-all">
                 <div>
                   <h3 className="text-2xl font-bold text-indigo-600 mb-4">{project.title}</h3>
                   <p className="text-gray-700 mb-4">{project.description}</p>
@@ -69,7 +69,7 @@ export default function Projects() {
                   <a 
                     href={project.link}
                     target="_blank"
-                    className="mt-6 inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-800 text-sm"
+                    className="mt-2 inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-800 text-sm"
                   >
                     View Project <FaExternalLinkAlt />
                   </a>

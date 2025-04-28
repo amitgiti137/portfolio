@@ -1,5 +1,6 @@
 'use client';
 
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function Resume() {
@@ -55,12 +56,18 @@ export default function Resume() {
                 <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
                     <Skills />
                 </div>
+                <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
+                    <Projects />
+                </div>
                 <div>
-                <h2 className="text-2xl mb-3">Languages</h2>
+                    <h2 className="text-2xl mb-3">Languages</h2>
                     <div className="bg-white rounded-xl w-[100%] p-6">
                         <p className="text-sm mb-1">English (Working Proficient)</p>
                         <p className="text-sm mb-1">Hindi (Fluent)</p>
                     </div>
+                </div>
+                <div>
+                <a href="/amit-resume.pdf" download className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Download Resume</a>
                 </div>
             </section>
         </>

@@ -13,6 +13,7 @@ import Skills from './components/Skills';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Footer from './components/Footer';
+import ProjectsFlex from './components/ProjectsCard';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about'); // default About section
@@ -53,8 +54,8 @@ export default function Home() {
 
   return (
     <>
-      <Header />
-      <div className="flex flex-wrap">
+      <Header setActiveSection={setActiveSection} />
+      <div className="flex flex-wrap mt-12 lg:mt-16">
 
         {/* Left Profile */}
 
@@ -111,11 +112,14 @@ export default function Home() {
               <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
               <Skills />
               </div>
+              <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
+              <Projects />
+              </div>
             </section>
           )}
 
           {activeSection === 'resume' && <Resume />}
-          {activeSection === 'work' && <Projects />}
+          {activeSection === 'work' && <ProjectsFlex />}
           {activeSection === 'contact' && <Contact />}
         </div>
 
