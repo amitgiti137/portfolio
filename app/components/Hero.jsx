@@ -25,7 +25,7 @@ export default function Hero() {
                         className="rounded-full border-4 border-yellow-400 object-cover"
                     />
                     <h1 className="text-4xl font-bold mt-6">Amit Kumar</h1>
-                    <p className="text-lg text-gray-200 mt-2">Full Stack Web Developer</p>
+                    <p className="text-lg text-gray-200 mt-2">Full Stack Developer</p>
 
                     {/* Social Icons */}
                     <div className="flex gap-6 mt-4 text-2xl">
@@ -39,7 +39,7 @@ export default function Hero() {
                     <div className="mt-6 text-sm space-y-2">
                         <p className="flex items-center gap-2"><FaPhone /> +91 91356 19017</p>
                         <p className="flex items-center gap-2"><FaEnvelope /> amit1317jmp@gmail.com</p>
-                        <p className="flex items-center gap-2"><FaBirthdayCake /> 17 May 1994</p>
+                        {/* <p className="flex items-center gap-2"><FaBirthdayCake /> 17 May 1994</p> */}
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@ export default function Hero() {
                     <div>
                     <Image
                         src="/assets/amit-dp.jpg"
-                        width={100}
-                        height={100}
+                        width={80}
+                        height={80}
                         alt="Amit Kumar"
                         className="rounded-full border-4 border-yellow-400 object-cover"
                     />
@@ -61,7 +61,7 @@ export default function Hero() {
                     </div>
                     <div className="flex flex-col">
                         
-                        <p className="text-sm font-bold text-gray-200">Full Stack Web Developer</p>
+                        <p className="text-sm font-bold text-gray-200">Full Stack Developer</p>
                         <div className="flex flex-col items-start w-full md:w-1/2 gap-4 mt-2">
 
                             {/* Social Icons */}
@@ -76,7 +76,7 @@ export default function Hero() {
                             <div className="text-sm mt-3 text-white space-y-2">
                                 <p className="flex items-center gap-2"><FaPhone /> +91 91356 19017</p>
                                 <p className="flex items-center gap-2"><FaEnvelope /> amit1317jmp@gmail.com</p>
-                                <p className="flex items-center gap-2"><FaBirthdayCake /> 17 May 1994</p>
+                                {/* <p className="flex items-center gap-2"><FaBirthdayCake /> 17 May 1994</p> */}
                             </div>
 
                         </div>
