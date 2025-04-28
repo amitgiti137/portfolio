@@ -3,38 +3,36 @@
 export default function Resume() {
     return (
         <>
-            <section className="container mx-auto p-4 bg-amber-50">
+            <section className="container mx-auto rounded-3xl p-8 bg-amber-50">
                 <div>
                     <h1 className="text-4xl mb-4">Resume</h1>
                 </div>
-                <div>
+                <div className="">
                     <h2 className="text-2xl mb-3">Education</h2>
-                    <div className="flex flex-wrap space-y-2 space-x-2">
+                    <div className="flex flex-wrap space-y-2 space-x-4">
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
                             <h3 className="text-lg">Bachelor of Engineering</h3>
-                            <p className="text-sm">Radharaman Institute Of Technology And Science</p>
+                            <p className="text-sm mb-1">Radharaman Institute Of Technology And Science</p>
                             <div className="flex justify-between text-sm">
                                 <p>Mechanical Engineering</p>
-                                <p> | Aug 2013 - Jun 2017 | </p>
+                                <p>Aug 2013 - Jun 2017</p>
                                 <p>75%</p>
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg">Bachelor of Engineering</h3>
-                            <p className="text-sm">Radharaman Institute Of Technology And Science</p>
+                            <h3 className="text-lg">Intermediate</h3>
+                            <p className="text-sm mb-1">K N Memo Academy Asarganj Munger</p>
                             <div className="flex justify-between text-sm">
-                                <p>Mechanical Engineering</p>
-                                <p> | Aug 2013 - Jun 2017 | </p>
-                                <p>75%</p>
+                                <p>July 2010 - Mar 2012</p>
+                                <p>72.2</p>
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg">Bachelor of Engineering</h3>
-                            <p className="text-sm">Radharaman Institute Of Technology And Science</p>
+                            <h3 className="text-lg">Matriculation</h3>
+                            <p className="text-sm mb-1">Kendriya vidyalaya Jamalpur Munger</p>
                             <div className="flex justify-between text-sm">
-                                <p>Mechanical Engineering</p>
-                                <p> | Aug 2013 - Jun 2017 | </p>
-                                <p>75%</p>
+                                <p>April 2009 - Mar 2010</p>
+                                <p>CGPA- 9</p>
                             </div>
                         </div>
                     </div>

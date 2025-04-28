@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         {/* Center Content */} 
-        <div className="w-[100%] lg:w-[68%] px-6 py-3">
+        <div className="w-[100%] lg:w-[67%] px-1 py-3">
           {activeSection === 'about' && (
             <section className="py-3">
               <h2 className="text-4xl font-bold mb-6">About Me</h2>
