@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="hidden lg:flex flex-row items-center gap-12 relative z-10">
 
                 {/* Left Section */}
-                <div className="flex flex-col items-start">
+                <div className="flex flex-col items-center">
                     <Image
                         src="/assets/amit-dp.jpg"
                         width={200}
