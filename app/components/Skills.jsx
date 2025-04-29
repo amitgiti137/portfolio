@@ -22,9 +22,9 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-8 bg-white">
+    <section id="skills" className="py-8 bg-white dark:bg-gray-800 transition-colors duration-500 rounded-2xl">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl font-bold mb-6 flex items-center"> <FaTools className="mr-2" />Skills</h2>
+        <h2 className="text-2xl font-bold mb-6 flex items-center text-gray-900 dark:text-white"> <FaTools className="mr-2" />Skills</h2>
 
         {/* Splide Slider */}
         <Splide
@@ -45,7 +45,7 @@ export default function Skills() {
           {/* Map through the skills */}
           {skills.map((skill, index) => (
             <SplideSlide key={index}>
-              <div className="flex flex-col items-center gap-2">
+              <div className="flex flex-col items-center gap-2 text-gray-700 dark:text-gray-300">
                 <div className="text-5xl">{skill.icon}</div>
                 <span>{skill.name}</span>
               </div>

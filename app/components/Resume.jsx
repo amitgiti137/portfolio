@@ -15,7 +15,7 @@ export default function Resume() {
                     <h2 className="text-2xl mb-3 flex items-cente text-gray-800 dark:text-gray-200"><FaGraduationCap className="mr-2" />Education</h2>
                     <div className="flex flex-wrap space-y-2 space-x-4">
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Bachelor of Engineering</h3>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">Bachelor of Engineering</h3>
                             <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Radharaman Institute Of Technology And Science</p>
                             <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400">
                                 <p>Mechanical Engineering</p>
@@ -24,7 +24,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Higher Secondary School</h3>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">Higher Secondary School</h3>
                             <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">K N Memo Academy Asarganj Munger</p>
                             <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400">
                                 <p>July 2010 - Mar 2012</p>
@@ -32,7 +32,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="bg-white rounded-xl w-[100%] lg:w-[48%] p-6">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Secondary School</h3>
+                            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">Secondary School</h3>
                             <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Kendriya vidyalaya Jamalpur Munger</p>
                             <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400">
                                 <p>April 2009 - Mar 2010</p>
@@ -44,7 +44,7 @@ export default function Resume() {
                 <div>
                     <h2 className="text-2xl mb-3 flex items-cente text-gray-800 dark:text-gray-200"><FaBriefcase className="mr-2" />Experience</h2>
                     <div className="bg-white rounded-xl w-[100%] p-6">
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">DIGITAL WOLF</h3>
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">DIGITAL WOLF</h3>
                         <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Kolkata</p>
                         <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Aug 2024 - Present</p>
                         <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
