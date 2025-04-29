@@ -67,14 +67,14 @@ export default function Home() {
         <div className="w-[100%] lg:w-[66%] px-1 py-2">
           {activeSection === 'about' && (
             <section className="py-3 p-4 lg:p-8 rounded-3xl bg-amber-50">
-              <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">About Me</h2>
+              <p className="text-gray-700 leading-relaxed">
                 Passionate Web Developer with hands-on experience at DigitalWolf Kolkata since August 2024.
                 Specialized in designing user-centric, scalable web solutions using Next.js, Node.js, and MongoDB.
                 Focused on combining creativity, technical expertise, and business needs to deliver high-quality results.
               </p>
               <div>
-                <p className="whatIDo text-2xl font-bold mt-4 mb-6 text-gray-900 dark:text-white">What I Do!</p>
+                <p className="whatIDo text-2xl font-bold mt-4 mb-6 text-gray-900">What I Do!</p>
                 
                 {/* Splide Slider */}
                 <Splide 
@@ -109,10 +109,10 @@ export default function Home() {
                 </Splide>
               </div>
               
-              <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-700 rounded-xl">
+              <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-800 rounded-xl">
               <Skills />
               </div>
-              <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-700 rounded-xl">
+              <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-300 rounded-xl">
               <Projects />
               </div>
             </section>
