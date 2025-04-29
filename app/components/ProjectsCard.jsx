@@ -36,9 +36,9 @@ export default function ProjectsFlex() {
   ];
 
   return (
-    <section id="projects-flex" className="py-3 lg:py-6 bg-gray-50 rounded-2xl">
+    <section id="projects-flex" className="py-3 lg:py-6 bg-gray-50 dark:bg-gray-900 rounded-2xl">
       <div className="max-w-7xl mx-auto px-2 lg:px-8">
-        <h2 className="text-4xl font-bold mb-4 lg:mb-8 flex items-center"><FaProjectDiagram className="mr-2" />Projects</h2>
+        <h2 className="text-4xl font-bold mb-4 lg:mb-8 flex items-center text-gray-900 dark:text-white"><FaProjectDiagram className="mr-2" />Projects</h2>
 
         <div className="flex flex-wrap justify-center gap-8">
           {projects.map((project, index) => (
