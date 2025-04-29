@@ -40,7 +40,7 @@ export default function Projects() {
   return (
     <section id="projects" className="">
       <div className="">
-        <h2 className="text-2xl font-bold flex items-center"><FaProjectDiagram className="mr-2" /> Projects</h2>
+        <h2 className="text-2xl font-bold flex items-center text-gray-800"><FaProjectDiagram className="mr-2" /> Projects</h2>
 
         <Splide 
           options={{

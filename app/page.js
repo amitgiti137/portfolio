@@ -112,7 +112,7 @@ export default function Home() {
               <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-800 rounded-xl">
               <Skills />
               </div>
-              <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-300 rounded-xl">
+              <div className="mt-4 p-6 mb-3 bg-white rounded-xl">
               <Projects />
               </div>
             </section>
