@@ -12,13 +12,13 @@ export default function Skills() {
     { icon: <FaCss3Alt className="text-5xl text-blue-500" />, name: 'CSS3' },
     { icon: <FaJsSquare className="text-5xl text-yellow-400" />, name: 'JavaScript' },
     { icon: <FaReact className="text-5xl text-blue-400" />, name: 'React.js' },
-    { icon: <SiNextdotjs className="text-5xl" />, name: 'Next.js' },
+    { icon: <SiNextdotjs className="text-5xl text-black dark:text-white" />, name: 'Next.js' },
     { icon: <FaNodeJs className="text-5xl text-green-600" />, name: 'Node.js' },
     { icon: <SiMongodb className="text-5xl text-green-500" />, name: 'MongoDB' },
     { icon: <SiTailwindcss className="text-5xl text-teal-400" />, name: 'TailwindCSS' },
-    { icon: <SiVercel className="text-5xl" />, name: 'Vercel' },
+    { icon: <SiVercel className="text-5xl text-black dark:text-white" />, name: 'Vercel' },
     { icon: <SiPostman className="text-5xl text-orange-600" />, name: 'Postman' },
-    { icon: <FaGithub className="text-5xl" />, name: 'GitHub' },
+    { icon: <FaGithub className="text-5xl text-black dark:text-white" />, name: 'GitHub' },
   ];
 
   return (

@@ -47,7 +47,7 @@ export default function Resume() {
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">DIGITAL WOLF</h3>
                         <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Kolkata</p>
                         <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Aug 2024 - Present</p>
-                        <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                        <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-400">
                             <li>Developed static dynamic and E-commerce website that ensured high traffic, page view and user friendly.</li>
                             <li>Managed web design projects from start to finish using React.js, HTML 5, JavaScript and CSS 3 with 100% client satisfaction.</li>
                             <li>Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed.</li>
