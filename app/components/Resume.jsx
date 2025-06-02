@@ -53,6 +53,18 @@ export default function Resume() {
                             <li>Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed.</li>
                         </ul>
                     </div>
+                    <div className="bg-white rounded-xl w-[100%] p-6 mt-4">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-400">Ad Victoriam Marketing Solution Pvt. Ltd</h3>
+                        <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Kolkata</p>
+                        <p className="text-sm mb-1 text-gray-600 dark:text-gray-400">Aug 2022 - July 2024</p>
+                        <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-400">
+                            <li>Designing and developing responsive user interfaces using HTML, CSS, JavaScript.</li>
+                            <li>Collaborating wit UI/UX designers and backend developers to deliver seamless and visually appealing web application.</li>
+                            <li>Ensuring the technical feasibility of UI/UX designs and optimizing application for maximum speed and scalability.</li>
+                            <li>Maintaining code quality, organizaion and documenation accross multiple projects.</li>
+                            <li>Debugging and troubleshooting issues to ensure a smooth and user-friendly web experience.</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="mt-4 p-6 mb-3 bg-white dark:bg-gray-800 rounded-xl">
                     <Skills />

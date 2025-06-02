@@ -17,7 +17,7 @@ export default function Hero() {
 
                 {/* Left Section */}
                 <div className="flex flex-col items-center">
-                    <Image
+                    <img
                         src="/assets/amit-dp.jpg"
                         width={200}
                         height={200}
