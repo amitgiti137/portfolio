@@ -24,14 +24,14 @@ export default function ProjectsFlex() {
       description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
       techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
       status: "Live on Test Mode",
-      link: "https://auto-front-git-master-amits-projects-069343dc.vercel.app/",
+      link: "https://auto-front-ten.vercel.app/",
     },
     {
       title: "Kam Pay Karo",
       description: "Shopping web app with affiliate marketing",
       techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
       status: "Live on Devlopment Mode",
-      link: "https://paykaro-frontend-git-main-amits-projects-069343dc.vercel.app/",
+      link: "https://paykaro-frontend.vercel.app/",
     },
   ];
 
