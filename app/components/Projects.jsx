@@ -8,11 +8,18 @@ import { FaProjectDiagram } from 'react-icons/fa';
 export default function Projects() {
   const projects = [
     {
-      title: "Hitech Animation Studio Website",
-      description: "Frontend website built solo for a studio using Next.js and TailwindCSS. Completed in 15 days.",
-      techStack: "Next.js, TailwindCSS",
-      status: "Local Project",
-      link: null,
+      title: "Aapki Dukan",
+      description: "AI-assisted e-commerce platform developed using ChatGPT for prototyping, debugging, and refining business logic. Features modern UI, cart management, and payment flow.",
+      techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
+      status: "In Development",
+      link: "https://apnidukan-sigma.vercel.app/", // replace with your actual link
+    },
+    {
+      title: "Task Management System",
+      description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
+      techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
+      status: "Live on Test Mode",
+      link: "https://auto-front-ten.vercel.app/",
     },
     {
       title: "Tutopia E-commerce Website",
@@ -22,19 +29,19 @@ export default function Projects() {
       link: "https://shop.tutopialearningapp.com",
     },
     {
-      title: "Task Management System",
-      description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
-      techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
-      status: "Internal Project",
-      link: "https://auto-front-ten.vercel.app/",
+      title: "Hitech Animation Studio Website",
+      description: "Frontend website built solo for a studio using Next.js and TailwindCSS. Completed in 15 days.",
+      techStack: "Next.js, TailwindCSS",
+      status: "Local Project",
+      link: null,
     },
     {
-        title: "Kam Pay Karo",
-        description: "Shopping web app with affiliate marketing",
-        techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
-        status: "Live on Devlopment Mode",
-        link: "https://paykaro-frontend.vercel.app/",
-      },
+      title: "Kam Pay Karo",
+      description: "Shopping web app with affiliate marketing",
+      techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
+      status: "Live on Devlopment Mode",
+      link: "https://paykaro-frontend.vercel.app/",
+    },
   ];
 
   return (

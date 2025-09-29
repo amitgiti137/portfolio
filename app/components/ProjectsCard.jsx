@@ -6,11 +6,18 @@ import { FaProjectDiagram } from 'react-icons/fa';
 export default function ProjectsFlex() {
   const projects = [
     {
-      title: "Hitech Animation Studio Website",
-      description: "Frontend website built solo for a studio using Next.js and TailwindCSS. Completed in 15 days.",
-      techStack: "Next.js, TailwindCSS",
-      status: "Local Project",
-      link: null,
+      title: "Aapki Dukan",
+      description: "AI-assisted e-commerce platform developed using ChatGPT for prototyping, debugging, and refining business logic. Features modern UI, cart management, and payment flow.",
+      techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
+      status: "In Development",
+      link: "https://apnidukan-sigma.vercel.app/", // replace with your actual link
+    },
+    {
+      title: "Task Management System",
+      description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
+      techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
+      status: "Live on Test Mode",
+      link: "https://auto-front-ten.vercel.app/",
     },
     {
       title: "Tutopia E-commerce Website",
@@ -20,11 +27,11 @@ export default function ProjectsFlex() {
       link: "https://shop.tutopialearningapp.com",
     },
     {
-      title: "Task Management System",
-      description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
-      techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
-      status: "Live on Test Mode",
-      link: "https://auto-front-ten.vercel.app/",
+      title: "Hitech Animation Studio Website",
+      description: "Frontend website built solo for a studio using Next.js and TailwindCSS. Completed in 15 days.",
+      techStack: "Next.js, TailwindCSS",
+      status: "Local Project",
+      link: null,
     },
     {
       title: "Kam Pay Karo",
@@ -36,7 +43,7 @@ export default function ProjectsFlex() {
   ];
 
   return (
-    <section id="projects-flex" className="py-3 lg:py-6 bg-gray-50 dark:bg-gray-900 rounded-2xl">
+    <section id="projects-flex" className="py-3 lg:py-6 bg-gradient-to-r from-[#CBD2A4] via-[#C9E9D2] to-[#E4E0E1] dark:bg-gray-900 rounded-2xl">
       <div className="max-w-7xl mx-auto px-2 lg:px-8">
         <h2 className="text-4xl font-bold mb-4 lg:mb-8 flex items-center text-gray-900 dark:text-white"><FaProjectDiagram className="mr-2" />Projects</h2>
 

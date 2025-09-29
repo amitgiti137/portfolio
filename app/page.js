@@ -66,7 +66,7 @@ export default function Home() {
         {/* Center Content */} 
         <div className="w-[100%] lg:w-[66%] px-1 py-2">
           {activeSection === 'about' && (
-            <section className="py-3 p-4 lg:p-8 rounded-3xl bg-amber-50">
+            <section className="py-3 p-4 lg:p-8 rounded-3xl bg-gradient-to-r from-[#CBD2A4] via-[#C9E9D2] to-[#E4E0E1]">
               <h2 className="text-4xl font-bold mb-6 text-gray-900">About Me</h2>
               <p className="text-gray-700 leading-relaxed">
                 Passionate Web Developer with hands-on experience at DigitalWolf Kolkata since August 2024.

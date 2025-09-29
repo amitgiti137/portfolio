@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Portfolio",
   description: "Portfolio that define works",
+  icons: {
+    icon: "assets/amit-dp.jpg", // tells browser "no favicon"
+  },
 };
 
 export default function RootLayout({ children }) {

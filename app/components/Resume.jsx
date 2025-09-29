@@ -7,7 +7,7 @@ import Skills from "./Skills";
 export default function Resume() {
     return (
         <>
-            <section className="container mx-auto rounded-3xl p-2 lg:p-8 bg-amber-50 dark:bg-gray-900">
+            <section className="container mx-auto rounded-3xl p-2 lg:p-8 bg-gradient-to-r from-[#CBD2A4] via-[#C9E9D2] to-[#E4E0E1] dark:bg-gray-900">
                 <div>
                     <h1 className="text-4xl mb-4 text-gray-900 dark:text-white">Resume</h1>
                 </div>
@@ -80,7 +80,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <div>
-                <a href="/amit-resume.pdf" download className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Download Resume</a>
+                <a href="/assets/resume-amit-kumar.pdf" download className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Download Resume</a>
                 </div>
             </section>
         </>
