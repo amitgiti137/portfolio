@@ -6,18 +6,11 @@ import { FaProjectDiagram } from 'react-icons/fa';
 export default function ProjectsFlex() {
   const projects = [
     {
-      title: "Aapki Dukan",
-      description: "AI-assisted e-commerce platform developed using ChatGPT for prototyping, debugging, and refining business logic. Features modern UI, cart management, and payment flow.",
-      techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
-      status: "In Development",
-      link: "https://apnidukan-sigma.vercel.app/", // replace with your actual link
-    },
-    {
-      title: "Task Management System",
-      description: "Full-stack Task Management platform with real-time chat, role-based permissions, smart filters, and subscription system.",
-      techStack: "Next.js 15, TailwindCSS, Node.js, MongoDB, Socket.IO",
-      status: "Live on Test Mode",
-      link: "https://auto-front-ten.vercel.app/",
+      title: "1Line - Super App (Founder & Owner)",
+      description: "My own venture — an Indian super app I built and founded, consolidating food delivery, ride-hailing, local shopping, package delivery, and service bookings into one unified platform. Empowers local vendors and small businesses to go online with zero joining fees.",
+      techStack: "Next.js, React, TailwindCSS",
+      status: "Live Project",
+      link: "https://1line.co.in",
     },
     {
       title: "Tutopia E-commerce Website",
@@ -32,13 +25,6 @@ export default function ProjectsFlex() {
       techStack: "Next.js, TailwindCSS",
       status: "Local Project",
       link: null,
-    },
-    {
-      title: "Kam Pay Karo",
-      description: "Shopping web app with affiliate marketing",
-      techStack: "Next.js, TailwindCSS, Node.js, MongoDB",
-      status: "Live on Devlopment Mode",
-      link: "https://paykaro-frontend.vercel.app/",
     },
   ];
 
